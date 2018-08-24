@@ -62,12 +62,26 @@ item = {
         }
 ```
 
-Le jeu de données normalisé est ensuite réparti en quatre classes correspondant à l'état de l'iPhone. Cela permet de mieux identifier les tendances pour chacune des classes et d'éviter les effets de bords entre elles.
+Le jeu de données normalisé est ensuite réparti en 4 classes correspondant à l'état de l'iPhone. Cela permet de mieux identifier les tendances pour chacune des classes et d'éviter les effets de bords entre elles.
 
 ## Visualisation des données
 ### Courbe de tendance
-![alt-text-1](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Used%20Evolution.png "used")
-![alt-text-1](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Refurb%20Seller%20Evolution.png "seller refurbished") ![alt-text-2](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Refurb%20Manufacturer.png "manufacturer refurbished")
+Nous allons étudier l'évolution du prix moyen des iPhone catégorisé en "Used" par eBay. Cette classe est la plus représentée dans le jeu de données qui a été constitué et est donc plus pertinente.
+
+![](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Used%20Evolution.png)
+
+Ce graphique nous apporte plusieurs informations concernant l'évolution du prix du produit au cours des derniers mois.
+
+Dans un premier temps, la courbe trace l'évolution du prix moyen en fonction du jour de la vente.
+Une régression linéaire paramétrant une fonction d'ordre 3 permet de mettre en évidance que le prix de vente moyen reste constante avec une légère hausse.
+
+Un pic du prix moyen est enregistré durant la deuxième semaine de Juillet 2018. La date du pic correspond à celle du renouvellement de la gamme des MacBook Pro par Apple le 12 Juillet 2018.
+Cet évènement pourrait éventuellement justifier la légère hausse du prix moyen qui s'en est suivi.
+
+La courbe est aussi encadrée par un intervalle de confiance à 95% calculé à l'aide d'une moyenne glissante sur 5 valeurs.
+L'intervalle est assez large, signe que la marge d'incertitude autour du prix moyen est important. Cela montre d'une part que le taille du jeu de données pour la classe "used" n'est pas assez important et d'autre part que le prix est très volatile sur la période observée. 
+
+
 
 
 
