@@ -1,4 +1,4 @@
-# Analyse des prix de l'iPhone sur eBay
+# Analyse des prix de l'iPhone 6S 16GB sur eBay
 
 Ce script permet de récupérer l'historique de vente de l'iPhone 6S 16GB sur eBay entre le 25-05-2018 et le 22-08-2018. Seules les ventes terminées et réussies ont été prises en considération.
 
