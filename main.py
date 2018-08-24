@@ -139,8 +139,8 @@ if __name__ == '__main__':
     priceFeedbackDF = priceFeedbackDF[priceFeedbackDF['price'] < 600]
     priceFeedbackDF = priceFeedbackDF[priceFeedbackDF['positiveFeedbackPercent'] > 60]
     priceFeedbackDF.plot(kind='scatter', x='price', y='positiveFeedbackPercent', s=2)
-    plt.suptitle('Price Distribution of iPhone 6s 16GB Over Seller\'s Feedback Score')
-    plt.savefig('Distribution.png')
+    plt.suptitle('Price Distribution of iPhone 6s 16GB Over Seller\'s Positive Feedback Percent')
+    plt.savefig('Price Distribution.png')
 
     # Price Regression
     # Used
@@ -177,7 +177,7 @@ if __name__ == '__main__':
     mstd = meansRefurbManuDF['price'].rolling(5).std()
     plt.fill_between(mstd.index, ma-2*mstd, ma+2*mstd, color='k', alpha=0.2)
     plt.suptitle('Price Evolution of Refurbished (Manufacturer) iPhone 6s 16GB')
-    plt.savefig('Refurb Manufacturer.png')
+    plt.savefig('Refurb Manufacturer Evolution.png')
 
     # Describe prices
     plt.clf()
