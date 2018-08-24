@@ -83,7 +83,7 @@ L'intervalle est assez large, signe que la marge d'incertitude autour du prix mo
 
 Liens vers les courbes de tendances des deux autres classes les plus représentées : 
 * [Seller refurbished](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Refurb%20Seller%20Evolution.png)
-* [Manufacturer refurbished](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Refurb%20Manufacturer.png)
+* [Manufacturer refurbished](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Refurb%20Manufacturer%20Evolution.png)
 
 ### Statistiques
 ![](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Price%20Description.png)
@@ -107,7 +107,7 @@ On peut ainsi voir qu'il existe une faible dépendance entre le pourcentage d'é
 En revanche, on peut voir qu'il existe une très faible dépendance négative entre le prix et la note d'évaluation d'un vendeur ainsi qu'entre le prix et le pourcentage d'évaluation positive d'un vendeur.
 
 ### Répartition du prix en fonction du pourcentage d'évaluations positives
-![](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Distribution.png)
+![](https://github.com/QuarkyUp/eBay-price-Analysis/blob/master/Price%20Distribution.png)
 
 Les résultats de la matrice de corrélation ont permis de mettre en évidence la faible dépendance entre le prix et le pourcentage d'évaluations positives du vendeur. Ce graphique met donc en évidence la corrélation entre ces deux variables.
 
